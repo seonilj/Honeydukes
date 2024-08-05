@@ -22,14 +22,6 @@ body {
   background-color: #23483c;
 }
 
-.logo {
-  border-radius: 100%;
-  mix-blend-mode: overlay width: 120%;
-  height: 120%;
-  position: absolute;
-  left: 3%;
-}
-
 .navbar-sticky {
   position: fixed;
   width: 100%;
@@ -50,6 +42,18 @@ body {
 }
 
 /* --------------- */
+.logo {
+  mix-blend-mode: overlay width: 250%;
+  height: 250%;
+  position: absolute;
+  left: 2%;
+  bottom: -100%;
+}
+.title {
+  position: absolute;
+  left: 17%;
+}
+
 .bottomleft {
   position: absolute;
   left: 0;
@@ -141,6 +145,23 @@ body {
   /* above no flex set */
   content: "";
   clear: both;
+}
+ /* trial horizontal ver */
+/* .column {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}*/
+.image-vertical {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.image-padding {
+  margin-bottom: 58px;
 }
 
 .padding-64 {

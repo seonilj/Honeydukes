@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
         contactDataDisplay.innerHTML = `
             <p><strong>Name:</strong> ${contactData.name}</p>
             <p><strong>Email:</strong> ${contactData.email}</p>
-            <p><strong>Phone Number:</strong> ${contactData.phone}</p>
+            <p><strong>Phone:</strong> ${contactData.phone}</p>
             <p><strong>Message:</strong> ${contactData.message}</p>
         `;
     } else {
