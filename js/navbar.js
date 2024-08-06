@@ -2,7 +2,7 @@ document.write(`
 <div class="navbar-sticky">
     <div class="navbar padding-0816 shadow-card" style="letter-spacing: 4px">
         <!-- Left Navbar with Logo -->
-        <a href="#">
+        <a href="index.html">
             <img class="logo" src="img/honeydukes_byGreendude34_fromDeviantart.png" alt="" />
         </a>
         <!-- Left Navbar Title: hidden

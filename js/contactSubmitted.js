@@ -7,10 +7,18 @@ document.addEventListener('DOMContentLoaded', function() {
         // Display contact data on the page
         const contactDataDisplay = document.getElementById('contactDataDisplay');
         contactDataDisplay.innerHTML = `
-            <p><strong>Name:</strong> ${contactData.name}</p>
-            <p><strong>Email:</strong> ${contactData.email}</p>
-            <p><strong>Phone:</strong> ${contactData.phone}</p>
-            <p><strong>Message:</strong> ${contactData.message}</p>
+            <p>Name:
+                <span class="color-light-blue">${contactData.name}</span>
+            </p>
+            <p>Email:
+                <span class="color-light-blue">${contactData.email}</span>
+            </p>
+            <p>Phone:
+                <span class="color-light-blue">${contactData.phone}</span>
+            </p>
+            <p>Message:
+                <span class="color-light-blue">${contactData.message}</span>
+            </p>
         `;
     } else {
         console.error('Contact Form Data not found in session storage.');
