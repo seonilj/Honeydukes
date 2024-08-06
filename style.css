@@ -159,6 +159,10 @@ body {
 .item-center {
   position: relative;
   left: 10%;
+<<<<<<< HEAD
+=======
+  
+>>>>>>> 84c124a634798c3773dcfff95f684f5dbd49d8ee
   justify-content: center;
   align-items: center;
 
